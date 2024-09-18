@@ -16,8 +16,8 @@
       }
     </style>
 </head>
-<body class="px-0 bg-whiteblue lg:px-28">
-    <nav class="flex items-center justify-between flex-wrap bg-primay p-3 -z-10 lg:px-28 lg:-mx-28 text-whiteblue absolute w-full">
+<body class="px-4 bg-whiteblue lg:px-28">
+    <nav class="flex items-center justify-between flex-wrap bg-primay p-3 -mx-4 -z-10 lg:px-28 lg:-mx-28 text-whiteblue absolute w-full">
       <span class="flex lg:hidden">
         <a class="material-symbols-outlined cursor-pointer font-bold">
           menu
@@ -43,10 +43,10 @@
       </div>
     </div>
   </nav>
-    <!-- Hero section start -->
-        <section class="flex items-center" style="height: 100vh;">
+  <!-- Hero section start -->
+        <section class="flex items-center py-20 lg:py-0 lg:h-100vh">
             <div class="flex my-auto justify-between items-center w-full flex-wrap">
-                <div class="w-full self-center px-4 lg:w-1/2">
+                <div class="w-full self-center lg:w-1/2">
                     <h1 class="text-base text-primay font-semibold md:text-xl lg:text-2xl">Hey everyone 👋, i'm
                         <span class="block text-2xl font-bold text-dark mt-1 lg:text-4xl py-2">
                             Yehezkiel Haganta Tarigan
@@ -58,9 +58,9 @@
                     <a href=""
                         class="font-semibold text-base text-white bg-primay py-2 px-5 rounded-md hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
                         <i class="fa-solid fa-file mr-2"></i> see my resume
-                        </a>
+                      </a>
                 </div>
-                <div class="w-full self-end px-4 lg:w-1/2">
+                <div class="w-full self-end lg:w-1/2">
                     <span class="mt-10 lg:mt-0 lg:right-0">
                         <div class="rounded-full relative overflow-hidden float-right max-w-full scale-75 lg:scale-100" style="width: 500px; height: 500px;">
                             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
@@ -75,17 +75,17 @@
         </section>
     <!-- Hero section end -->
     
-    <section id="skills" class="py-5 px-4 lg:px-0">
+    <section id="skills" class="py-5  lg:px-0">
       <h1 class="text-2xl mb-5 font-semibold text-gray-700">
         <i class="fa-solid fa-laptop-code  mr-2"></i>
         Skills and Technologies
       </h1>
       <div class="flex flex-wrap">
-        <div id="skills" class="pr-6  w-full lg:w-2/5">
-          <h1 class="text-2xl my-4">
+        <div id="skills" class="pr-6 my-4 w-full lg:w-2/5">
+          <h1 class="text-2xl mt-0 mb-4">
             Skills
           </h1>
-          <ul class="text-lg" style="list-style-type:circle">
+          <ul class="text-lg pl-5" style="list-style-type:circle">
             <li class="my-2">Algorithms and data structures <small> (advanced)</small></li>
             <li class="my-2">Game Development <small>(basic)</small> </li>
             <li class="my-2">Web Development <small> (advanced)</small></li>
@@ -93,11 +93,11 @@
             <li class="my-2">Grapical User Interface <small>(basic)</small> </li>
           </ul>
         </div>
-        <div id="tech" class=" w-full lg:w-3/5">
+        <div id="tech" class="w-full my-4 lg:w-3/5">
           <h1 class="text-2xl my-4">
             Technologies
           </h1>
-            <div class="flex flex-wrap gap-4 my-4 font-semibold text-center">
+            <div class="flex flex-wrap lg:justify-normal lg:gap-3 justify-between gap-2 my-4 font-semibold text-center">
                 <div class="py-4 px-4 text-center border-2 bg-white bg-opacity-40 shadow-md rounded-lg">
                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
                     <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
@@ -176,9 +176,24 @@
       </div>
     </section>
 
+    <!-- <section>
+      <h1 class="text-2xl mb-5 font-semibold text-gray-700">
+        <i class="fa-solid fa-gears  mr-2"></i>
+        Project
+      </h1>
+      <div class="flex justify-between flex-wrap">
+          <div>
+            <h2>Tic Tac Toe</h2>
+            <p>
+
+            </p>
+          </div>
+      </div>
+    </section> -->
+
     <!-- feedback section -->
-  <section id="Contact" class="flex justify-between flex-wrap my-10">
-  <div>
+  <section id="Contact" class="flex justify-between flex-wrap ">
+  <div class="my-4">
     <h2 class="text-2xl font-bold text-gray-700 mb-4">Contact Me</h2>
     <ul class="text-lg">
       <li class="my-4 flex">
@@ -186,7 +201,7 @@
           <i class="ml-1 fa-solid fa-envelope mr-2"></i>
         </span>        
         yehezkielhaganta@gmail.com</li>
-      <li>
+      <li class="my-4">
         <span class="text-xl"><i class="ml-1 fa-solid fa-phone mr-2"></i></span>083822905683
       </li>
       <li class="text-blue-500 underline my-4 flex">
@@ -209,7 +224,7 @@
       </li>
     </ul>
   </div>
-  <div class="lg:w-2/4">
+  <div class="w-full my-4 lg:w-2/4">
   <div class="rounded-lg w-full">
     <div class="rounded-lg w-full">
       <h2 class="text-2xl font-bold text-gray-700 mb-4">Drop me a line…</h2>
