@@ -747,6 +747,11 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -767,11 +772,6 @@ video {
   margin-bottom: auto;
 }
 
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -790,6 +790,10 @@ video {
 
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.ml-0 {
+  margin-left: 0px;
 }
 
 .ml-1 {
@@ -826,18 +830,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mr-10 {
-  margin-right: 2.5rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-0 {
-  margin-left: 0px;
 }
 
 .block {
@@ -896,14 +888,6 @@ video {
   height: 100%;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
-.h-80 {
-  height: 20rem;
-}
-
 .w-0 {
   width: 0px;
 }
@@ -938,18 +922,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-9\/12 {
-  width: 75%;
-}
-
-.w-1\/4 {
-  width: 25%;
-}
-
-.w-2\/4 {
-  width: 50%;
 }
 
 .max-w-full {
@@ -1201,11 +1173,6 @@ video {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
 .bg-primay {
   --tw-bg-opacity: 1;
   background-color: rgb(130 148 196 / var(--tw-bg-opacity));
@@ -1238,14 +1205,14 @@ video {
   background-color: rgb(255 255 255 / 0.75);
 }
 
-.bg-zinc-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(228 228 231 / var(--tw-bg-opacity));
-}
-
 .bg-whiteblue {
   --tw-bg-opacity: 1;
   background-color: rgb(235 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 228 231 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-40 {
@@ -1262,10 +1229,6 @@ video {
 
 .bg-opacity-70 {
   --tw-bg-opacity: 0.7;
-}
-
-.bg-opacity-20 {
-  --tw-bg-opacity: 0.2;
 }
 
 .bg-\[url\(\'\.\.\/image\/bg3\.jpg\'\)\] {
@@ -1735,8 +1698,8 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:ml-0 {
-    margin-left: 0px;
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
   }
 }
 
@@ -1774,12 +1737,16 @@ video {
     margin-right: -7rem;
   }
 
+  .lg\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
   .lg\:mt-0 {
     margin-top: 0px;
   }
 
-  .lg\:ml-10 {
-    margin-left: 2.5rem;
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .lg\:flex {
